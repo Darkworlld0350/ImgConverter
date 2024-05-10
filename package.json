@@ -8,10 +8,17 @@
     "start": "npm run sass && nodemon server.js"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.9.7",
     "nodemon": "^3.1.0",
-    "pug": "^3.0.2"
+    "passport": "^0.7.0",
+    "pug": "^3.0.2",
+    "sass": "^1.77.0",
+    "template": "^0.17.5"
   },
   "keywords": [],
   "author": "Victor Aranda",
