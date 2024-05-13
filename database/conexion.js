@@ -22,5 +22,5 @@ function obtenerConexion() {
 }
 
 module.exports = {
-    obtenerConexion
+    obtenerConexion 
 };

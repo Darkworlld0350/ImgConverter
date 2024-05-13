@@ -1,8 +1,10 @@
+// routes/registro.js
 const express = require('express');
 const router = express.Router();
 
-// Rutas públicas
+// Ruta para mostrar el formulario de registro
 router.get('/', (req, res) => {
-  res.render('logout')});
+    res.render('registro', { title: 'Registro' });
+});
 
 module.exports = router;
